@@ -15,14 +15,3 @@ router.delete("/deleteTodo/:id", deleteTodo);
 module.exports = router;
 
 
-// const express = require("express");
-// const router = express.Router();
-
-// //import controller
-// const {createTodo} = require("../controllers/createTodo");
-
-// // define Api routes
-// // map kar vadeya 
-// router.post("/createTodo",createTodo);
-
-// module.exports =  router;
